@@ -1854,7 +1854,7 @@ $yform->setActionField('showtext', array("Hallo das ist *Redaxo*", "", "", "2"))
 Versendet eine E-Mail über ein YForm-E-Mail-Template. Der Parameter **emailtemplate** ist der Key des E-Mail-Templates.
 
 	// allgemeine Definition
-	action|tpl2email|emailtemplate|emaillabel|[email@domain.de]
+	action|tpl2email|emailtemplate|[email@domain.de]|Absender|Fehlermeldung
 
 	// im YForm-Formbuilder
 	text|email|E-Mail-Empfänger
